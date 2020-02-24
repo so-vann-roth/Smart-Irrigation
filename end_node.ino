@@ -1,3 +1,4 @@
+//Code for end node to send data to coordinator
 #include <SoftwareSerial.h>
 #include <XBee.h>
 SoftwareSerial XBee(2,3);
