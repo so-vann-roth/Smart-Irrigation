@@ -64,7 +64,7 @@ void loop() {
   //Read data from 10HS
   rawHsValue = analogRead(hsPin);
   voltageHsValue = map (rawHsValue,0 ,1023, 0, 5000);
-  mois = 34.00;//map (voltageHsValue, 300,1250, 0, 57);
+  mois = map (voltageHsValue, 300,1250, 0, 57);
 
   //Read data from Davis6405
   rawDavisValue = analogRead(davisPin);
