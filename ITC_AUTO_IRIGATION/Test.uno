@@ -1,2 +1,2 @@
 //Testing file
-good
+go
