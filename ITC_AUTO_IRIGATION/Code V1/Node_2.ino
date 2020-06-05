@@ -60,7 +60,7 @@ void loop() {
   //Read data from 10HS
   rawHsValue = analogRead(hsPin);
   voltageHsValue = map (rawHsValue,0 ,1023, 0, 5000);
-  mois = 40.00; //map (voltageHsValue, 300,1250, 0, 57);
+  mois = map (voltageHsValue, 300,1250, 0, 57);
 
   //Collect data into package
   packet_t node;
