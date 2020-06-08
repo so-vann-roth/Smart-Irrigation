@@ -16,3 +16,5 @@ while True:
             c.execute("""INSERT INTO ITC(Sensor1,Sensor2) VALUES (%d,%d)""" % (data1,data2))
             dbConn.commit()
         except:
+            dbConn.rollback()
+           dbConn.close()
