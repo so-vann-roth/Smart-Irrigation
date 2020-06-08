@@ -1,0 +1,18 @@
+import serial
+import MySQLdb
+import io
+xbee=serial.Serial('/dev/ttyUSB0',9600)
+while True:
+    i = xbee.read()
+    ii = int.from_bytes(d1,byteorder = 'big')
+    if ii == 2:
+        d1=xbee.read()
+        data1 = int.from_bytes(d1,byeteorder = 'big')
+        d2=xbee.readline()
+        data2 = int.from_bytes(d2,byeteorder = 'big')
+        dbConn = MySQLdb.connect("localhost","gtr","gtrlab","gtr_2nd")
+        c = dbConn.cursor()
+        try:
+            c.execute("""INSERT INTO ITC(Sensor1,Sensor2) VALUES (%d,%d)""" % (data1,data2))
+            dbConn.commit()
+        except:
