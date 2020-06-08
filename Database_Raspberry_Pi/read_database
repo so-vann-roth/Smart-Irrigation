@@ -17,4 +17,4 @@ while True:
             dbConn.commit()
         except:
             dbConn.rollback()
-           dbConn.close()
+        dbConn.close()
