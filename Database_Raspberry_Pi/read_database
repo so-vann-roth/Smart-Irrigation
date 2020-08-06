@@ -1,20 +1,16 @@
 import serial
-import MySQLdb
-import io
-xbee=serial.Serial('/dev/ttyUSB0',9600)
+import time
+import MySQLdb as mdb
+arduino = serial.Serial("/dev/ttyUSB1", 9600)
+data = arduino.readline()
+pieces = data.split("\t")
+temperature = pieces[0]
+humidity = pieces[1]
+con = mdb.connet('localhost', 'gtr', 'gtrlab', 'gtr_2nd');
 while True:
-    i = xbee.read()
-    ii = int.from_bytes(d1,byteorder = 'big')
-    if ii == 2:
-        d1=xbee.read()
-        data1 = int.from_bytes(d1,byeteorder = 'big')
-        d2=xbee.readline()
-        data2 = int.from_bytes(d2,byeteorder = 'big')
-        dbConn = MySQLdb.connect("localhost","gtr","gtrlab","gtr_2nd")
-        c = dbConn.cursor()
-        try:
-            c.execute("""INSERT INTO ITC(Sensor1,Sensor2) VALUES (%d,%d)""" % (data1,data2))
-            dbConn.commit()
-        except:
-            dbConn.rollback()
-        dbConn.close()
+        cursor = con.cursor()
+        cursor = execute("""INSERT INTO ITC VALUES(%s,%s,%s)""", ('', temperature, humidity))
+        con.commit()
+        cursor.close()
+        time.sleep(5)
+
