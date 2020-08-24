@@ -1,0 +1,106 @@
+https://youtu.be/D_LQlAup7eA
+https://youtu.be/FwMwO8pXfq0
+https://drive.google.com/drive/folders/11WvEBDF4yaouN0XJIYpBc6v7MUZ6sL17?usp=sharing
+#Command in mongo shell:
+> mongo
+> show dbs
+> use shop
+> show collections
+> db.products.insertOne({name: "A Computer", price: 1229.99, description: "A high quality computer.", details: {cpu: "Intel i7 8770", memory: 32}})
+> db.products.find()
+> db.products.find().pretty()
+> cls
+> mongod --help
+> mongod --port 27018
+> mongo --port 27018
+> db.flightData.deleteOne({departureAirport: "TXL"})
+> db.flightData.updateOne({distance: 12000}, {$set: {marker: "delete"}})
+> db.flightData.updateMany({}, {$set: {marker: "toDelete"}})
+> db.flightData.deleteMany({marker: "toDelete"})
+> db.flightData.find({intercontinental: true}).pretty()
+> db.flightData.find({distance: {$gt:10000}})
+> db.flightData.updateOne({_id: ObjectId("5b97882ce6d2da95ae6406ab")}, {$set: {delayed: true}})
+> db.passengers.find({}, {name: 1}).pretty()
+> db.passengers.find({}, {name: 1, _id: 0}).pretty()
+> db.flightData.updateMany({}, {$set: {status: {description: "on-time", lastUpdated: "1 hour ago", details: {responsible: "Max Schwarzmuller"}}}})
+> db.passengers.updateOne({name: "Albert Twostone"}, {$set: {hobbies: ["sports", "cooking"]}})
+> db.passengers.findOne({name: "Albert Twostone"}).hobbies
+> db.passengers.findOne(hobbies: "sports"}).pretty()
+> db.flightData.findOne({"status.description": "on-time"}).pretty()
+> db.flightData.findOne({"status.details.responsible": "Max Schwarzmueller"}).pretty()
+> db.companies.insertOne({name: "Fresh Apple Inc", isStartup: ture, employees: 33, funding: 12345678901234567890, details: {ceo: "Mark Super"}, tags: [{title: "super"}, {title: "perfect"}], foundingData: new Date(), insertedAt: new Timestamp()})
+> db.stats()
+> db.numbers.drop()
+> db.patients.findOne().diseaseSummary
+
+> var dsid = db.patients.findOne().diseaseSummary
+> dsid
+#  
+> db.authors.insertMany([{name: "Max Schwarz", age: 29, adress: {street: "Main"}}, {name: "Manuel Lor", age: 30, address: {street: "Tree"}}])
+> db.authors.find().pretty()
+{
+        "_id" : ObjectId("5f2f9226cf6dfc39971350c9"),
+        "name" : "Max Schwarz",
+        "age" : 29,
+        "adress" : {
+                "street" : "Main"
+        }
+}
+{
+        "_id" : ObjectId("5f2f9226cf6dfc39971350ca"),
+        "name" : "Manuel Lor",
+        "age" : 30,
+        "address" : {
+                "street" : "Tree"
+        }
+}
+> db.books.insertOne({name: "My favrite Book", authors: [ObjectId("5f2f9226cf6dfc39971350c9"), ObjectId("5f2f9226cf6dfc39971350ca")]]})
+> db.books.aggregate([{$lookup: {from: "authors", localField: "authors", foreignField: "_id", as: "creators"}}])
+> db.books.aggregate([{$lookup: {from: "authors", localField: "authors", foreignField: "_id", as: "creators"}}]).pretty()
+{
+        "_id" : ObjectId("5f2f8f92cf6dfc39971350c8"),
+        "name" : "My favrite Book",
+        "authors" : [
+                ObjectId("5f2f9226cf6dfc39971350c9"),
+                ObjectId("5f2f9226cf6dfc39971350ca")
+        ],
+        "creators" : [
+                {
+                        "_id" : ObjectId("5f2f9226cf6dfc39971350c9"),
+                        "name" : "Max Schwarz",
+                        "age" : 29,
+                        "adress" : {
+                                "street" : "Main"
+                        }
+                },
+                {
+                        "_id" : ObjectId("5f2f9226cf6dfc39971350ca"),
+                        "name" : "Manuel Lor",
+                        "age" : 30,
+                        "address" : {
+                                "street" : "Tree"
+                        }
+                }
+        ]
+}
+
+#import json file in mongodb
+> cd C:\Program Files\MongoDB\Server\4.2\bin
+> mongoimport --jsonArray --db movieData --collection movies --file D:\Programming\MongoDB\tv-shows.json
+#import js file in mongodb 
+> mongo credit-rating.js
+or (copy & past -> run)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
