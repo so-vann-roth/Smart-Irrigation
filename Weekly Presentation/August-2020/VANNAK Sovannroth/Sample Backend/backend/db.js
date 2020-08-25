@@ -2,7 +2,7 @@ const mongodb = require('mongodb');
 
 const MongoClient = mongodb.MongoClient;
 const mongoDbUrl =
-  'mongodb+srv://Sovannroth:roth12345@cluster0-ntrwp.mongodb.net/test?retryWrites=true';
+  'mongodb://localhost:27027/test';
 
 let _db;
 
