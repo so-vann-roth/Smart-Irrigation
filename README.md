@@ -1,3 +1,2 @@
-# Zigbee
-Testing Xbee communication
-It is a good project to start WSN
+# Smart Farming
+This repo will contain neccessary doc and code for smart farming implementatio
