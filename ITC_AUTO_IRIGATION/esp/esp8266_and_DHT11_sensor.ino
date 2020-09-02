@@ -1,12 +1,16 @@
-#include <SoftwareSerial.h>
-#include <Adafruit_Sensor.h>
 #include <DHT.h>
+#include <DHT_U.h>
+
+#include <SoftwareSerial.h>
+//#include <Adafruit_Sensor.h>
+
+
 #define DHTPIN 13     // what pin we're connected to
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 #define RX 11 // set rx pin
 #define TX 12 // set tx pin
-String AP = "GTR_Lab";       // AP NAME
-String PASS = "@gtrlab@"; // AP PASSWORD
+String AP = "GEE_Family";       // AP NAME
+String PASS = "qwertyuiop"; // AP PASSWORD
 String API = "88OOFGWCTW33Q0I6";   // Write API KEY
 String HOST = "api.thingspeak.com";
 String PORT = "80";
@@ -49,7 +53,7 @@ void loop() {
   sendCommand("AT+CIPSTART=0,\"TCP\",\""+ HOST +"\","+ PORT,15,"OK"); // to connect to the Thingspeak API using TCP protocol
   sendCommand("AT+CIPSEND=0," +String(getData.length()+4),4,">");// for read data and start sending data
   esp8266.println(getData); // send data to Thingspeak
-  //delay(1000);
+  delay(1000);
   countTrueCommand++;
   sendCommand("AT+CIPCLOSE=0",5,"OK");// for end and close transmission
   //delay(10000);
