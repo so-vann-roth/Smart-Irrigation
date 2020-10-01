@@ -1,0 +1,24 @@
+Setting Up ESP8266 for Arduino IDE:
+
+Step 1:
+  Open Arduino IDE, If you haven’t installed it yet, You can download and install it.
+  
+Step 2:
+Now you need to install ESP8266 add on in Arduino IDE, for this go to TOOLS > Preferences
+
+Step 3:
+Go to File > Preferences 
+" http://arduino.esp8266.com/package_esp8266com_index.json " paste this link to “Additional Board Manager URLs” then click OK.
+
+Step 4:
+Go to Tools > Board > Boards Manager
+
+Step 5:
+Type “ESP8266” in search bar, You will see ESP8266 by ESP8266 community. Click on Install. I have already installed it. you can see it is showing “INSTALLED”.
+You have successfully installed ESP8266 board in Arduino IDE.
+
+Step 6:
+Go to tools > Board > select Generic ESP8266 Module.
+Select correct port.
+
+Restart the Arduino IDE. Now you are ready work with NodeMCU ESP8266 using Arduino IDE.
