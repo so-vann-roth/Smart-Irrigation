@@ -14,7 +14,7 @@
 4. **Bunrong**
 - Updated code Coordinator --> NodeMCU --> thinkspeak  
 
-**General**
+++General**
 - Plan for meeting during semester
  + Weekly meeting Wed-12->1pm
  + Progress Presentation: Biweekly per person alternatively
@@ -36,6 +36,6 @@
 4. **Sovannroth**
 - Dashboard design backend
 - Project requirement detail both backend and frontend
-** General:
+++General:
 - OF@TEIN++ AI part
 - SEIProject on Automatic Irrigation, work, prototyping
