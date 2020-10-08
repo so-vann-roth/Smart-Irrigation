@@ -4,6 +4,10 @@
 - STM32 blue pill overview
 - Learn RS485 protocol and library
 
+2.**Sovannaroth**
+- Manipulate data in data put into database for 1 year 10/2019-10/2020, interval 5min
+- Read data from database to display in the back/front end
+
 **General**
 - Plan for meeting during semester
 - Trip planning
