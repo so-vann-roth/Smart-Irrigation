@@ -8,15 +8,19 @@
 - Manipulate data in data put into database for 1 year 10/2019-10/2020, interval 5min
 - Read data from database to display in the back/front end
 - Plan for App demo
-3. ***Nita*
+3. **Nita**
 - Image detection
 - paper presentation
 4. **Bunrong**
 - Updated code Coordinator --> NodeMCU --> thinkspeak  
+
 **General**
 - Plan for meeting during semester
+ + Weekly meeting Wed-12->1pm
+ + Progress Presentation: Biweekly per person alternatively
 - Trip planning
-- Team assignment to the project (HEIP), (LBE), (ARES)
+ + 7-8 November 2020, Destination: Koh Tonsay
+- Team assignment to the project (HEIP), (LBE: ), (ARES)
 - 
 
 
