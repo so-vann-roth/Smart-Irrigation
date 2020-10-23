@@ -4,7 +4,8 @@
 - Use UAS to take photo to pridict yield of tomato
 - Next step: take photo of flower and then calculate color, heigh, volume
 2. **Sovannaroth**
--
+- Build app for agriculture
+- Next step: Buil UI of app same as backend
 **++ Meeting 08/10/20 ++**
 1. **RengSey**
 - STM32 blue pill overview
