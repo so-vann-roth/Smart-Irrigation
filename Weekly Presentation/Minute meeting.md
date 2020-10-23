@@ -6,6 +6,13 @@
 2. **Sovannaroth**
 - Build app for agriculture
 - Next step: Buil UI of app same as backend
+3. **Rengsey**
+- Contine on PCB for mushroom and prototyping on pH meter
+4. **Bunrong**
+- COntinue on connectivity to thinkspeak
+5. **Chanthy**
+- Start to work on HMI for mushroom automation
+
 **++ Meeting 08/10/20 ++**
 1. **RengSey**
 - STM32 blue pill overview
