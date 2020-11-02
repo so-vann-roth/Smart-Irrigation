@@ -10,9 +10,14 @@
 - Contine on PCB for mushroom
 - Protytping Multi function tester: soil moisture/temperature, pH, Temperature and Humidity
 4. **Bunrong**
-- COntinue on connectivity to thinkspeak
+- Detect the problem of thinkspeak data transfer, why it is disconnected?
+- Draw arrchitecture of the system and put in github
+- Report on the system
+
 5. **Chanthy**
 - Start to work on HMI for mushroom automation
+6. **Thavat**
+- 
 
 **++ Meeting 08/10/20 ++**
 1. **RengSey**
