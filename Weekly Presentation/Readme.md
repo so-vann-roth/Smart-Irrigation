@@ -13,11 +13,17 @@
 - Detect the problem of thinkspeak data transfer, why it is disconnected?
 - Draw arrchitecture of the system and put in github
 - Report on the system
+- Read water flow rate via flow rate sensor
+- Read energy usage via smart meter rs485
+- Control water level in the tank
 
 5. **Chanthy**
 - Start to work on HMI for mushroom automation
 6. **Thavat**
-- 
+- Mini data logger 
+- Hardware of the greenhouse system using PCB
+7. **Sokheng**
+- Controller to record the image using RPI and send to cloud and offline
 
 **++ Meeting 08/10/20 ++**
 1. **RengSey**
