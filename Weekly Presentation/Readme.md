@@ -1,7 +1,7 @@
 # Work Report
 **General**
 
-# Poster : 
+**Poster : 
 1. Title logo...
 2. Introduction: Introduce the system in 1 paragraph (Short)
 3. Architecture and how it works (short and completed)
