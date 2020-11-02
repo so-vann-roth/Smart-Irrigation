@@ -7,7 +7,8 @@
 - Build app for agriculture
 - Next step: Buil UI of app same as backend
 3. **Rengsey**
-- Contine on PCB for mushroom and prototyping on pH meter
+- Contine on PCB for mushroom
+- Protytping Multi function tester: soil moisture/temperature, pH, Temperature and Humidity
 4. **Bunrong**
 - COntinue on connectivity to thinkspeak
 5. **Chanthy**
