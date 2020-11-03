@@ -10,6 +10,8 @@
 4. Application: where to use it
 5. Name of student and teacher
 6. Contact/webpage/github
+
+
 ** Meeting 22/10/20**
 1. **Nita**
 - Use UAS to take photo to pridict yield of tomato
