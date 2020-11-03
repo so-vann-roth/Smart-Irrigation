@@ -1,6 +1,8 @@
 # Work Report
 **General**
-
+1. **Chanthy**
+- HMI NX8084k050
+- Connenct NRF52840 with nexus
 **Poster : 
 1. Title logo...
 2. Introduction: Introduce the system in 1 paragraph (Short)
