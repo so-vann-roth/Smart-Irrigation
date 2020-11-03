@@ -3,7 +3,30 @@
 1. **Chanthy**
 - HMI NX8084k050
 - Connenct NRF52840 with nexus
-**Poster : 
+
+2. **Bunrong**
+- ITC greenhouse system overview
+- Detect the problem of thinkspeak data transfer, why it is disconnected?--> Change Battery
+- Draw arrchitecture of the system and put in github
+- Report on the system
+- Read water flow rate via flow rate sensor
+- Read energy usage via smart meter rs485
+- Control water level in the tank
+
+3. **Rengsey**
+- Contine on PCB for mushroom
+- Protytping Multi function tester: soil moisture/temperature, pH, Temperature and Humidity
+- Modbus format and RS485
+
+4. **Nita**
+- Next step: take photo of flower/crop and then calculate color, heigh, volume (Pre processing)
+- Tensorflow,...
+
+5. **Sovannaroth**
+- Build app for agriculture
+- Next step: Buil UI of app same as backend
+
+**Poster : (7/11/2020)
 1. Title logo...
 2. Introduction: Introduce the system in 1 paragraph (Short)
 3. Architecture and how it works (short and completed)
@@ -22,6 +45,7 @@
 3. **Rengsey**
 - Contine on PCB for mushroom
 - Protytping Multi function tester: soil moisture/temperature, pH, Temperature and Humidity
+- 
 4. **Bunrong**
 - Detect the problem of thinkspeak data transfer, why it is disconnected?
 - Draw arrchitecture of the system and put in github
