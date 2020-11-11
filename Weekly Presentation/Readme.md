@@ -1,4 +1,41 @@
 # Work Report
+** Meeting 11/11/20**
+1. **Chanthy**
+- Waiting for HMI NX8084k050 for testing
+- Combine Code
+
+2. **Bunrong**
+- ITC greenhouse system overview (Next meeting)
+- Draw arrchitecture of the system and put in github (Next meeting)
+- Report on the system
+- Read water flow rate via flow rate sensor
+- Read energy usage via smart meter rs485
+- Control water level in the tank
+
+3. **Rengsey**
+- Contine on PCB for mushroom
+- Modbus format and RS485 (Manual, scanning, read manual)
+- Protytping Multi function tester: soil moisture/temperature, pH, Temperature and Humidity
+
+4. **Nita**
+- Noise reduction technique: Search in ieee paper and OpenCV for python
+- Next step: take photo of flower/crop and then calculate color, heigh, volume (Pre processing)
+- Tensorflow,...
+
+
+5. **Sovannaroth**
+- Build app for agriculture
+- Next step: Chart for data viewing 
+
+6. **Thavath**
+- Hardware of the greenhouse system using PCB
+- Mini data logger 
+
+7. **Sokheng**
+- List : what u have, what u need?? (RPI 3, accessory)
+- RPI: install os, learn phyton, library of camera pi, record data from camera to memory card
+
+
 ** Meeting 03/11/20**
 1. **Chanthy**
 - HMI NX8084k050
