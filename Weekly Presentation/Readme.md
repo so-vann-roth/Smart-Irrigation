@@ -4,6 +4,7 @@
 1. Mentor for T2 student project
 2. Poster 
 3. Recruit New student
+4. Report Internship
 
 ** Meeting 11/11/20**
 1. **Chanthy**
