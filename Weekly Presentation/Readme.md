@@ -6,8 +6,19 @@
 3. Recruit New student
 4. Report Internship
 5. Report Nakru
+1. **Chanthy**
+- Greenhouse control kit
+- Waiting for HMI NX8084k050 for testing
+- Combine Code
+2. **Sovannaroth**
+- Build app for agriculture
+- Next step: Chart for data viewing
+- Report nakru
 
-***Meeting 11/11/20**
+
+
+
+***Meeting 11/11/20***
 1. **Chanthy**
 - Waiting for HMI NX8084k050 for testing
 - Combine Code
