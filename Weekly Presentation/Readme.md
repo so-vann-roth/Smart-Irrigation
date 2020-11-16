@@ -1,12 +1,13 @@
 # Work Report
-***Next week
+***Meeting 17/11/2020***
 
 1. Mentor for T2 student project
 2. Poster 
 3. Recruit New student
 4. Report Internship
+5. Report Nakru
 
-** Meeting 11/11/20**
+***Meeting 11/11/20**
 1. **Chanthy**
 - Waiting for HMI NX8084k050 for testing
 - Combine Code
