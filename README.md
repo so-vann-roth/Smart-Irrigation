@@ -2,7 +2,7 @@
 This repo will contain neccessary doc and code for smart farming implementation.
 
 
-**Real Time data in greenhouse at ITC
+***Real Time data in greenhouse at ITC***
 https://thingspeak.com/channels/1111041
 
-**Real Time data in Mushroom house Kg.Cham http://iot-lab.itc.edu.kh/data/perspective/client/MushAuto/charts
+***Real Time data in Mushroom house Kg.Cham http://iot-lab.itc.edu.kh/data/perspective/client/MushAuto/charts
