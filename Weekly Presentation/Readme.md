@@ -1,4 +1,18 @@
 # Work Report
+
+***Meeting 23/11/2020***
+1. Bunrong: 
+- Report and poster
+2. Rengsey
+- Tester status updated
+- Poster
+3. thavath
+- Hardware update
+
+
+
+
+
 ***Meeting 17/11/2020***
 
 1. Mentor for T2 student project
