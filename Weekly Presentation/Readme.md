@@ -1,6 +1,6 @@
 # Work Report
 
-***Meeting 23/11/2020***
+***Meeting 23-24/11/2020***
 1. Bunrong: 
 - Report and poster
 2. Rengsey
@@ -9,9 +9,17 @@
 3. thavath
 - Hardware update
 
-
-
-
+4. Sokheng
+- RPI updated
+- Camera-->RPI-->Memory card-->Cloud
+- Poster
+5. Sovannaroth
+- Report 
+- Work with Kru lee
+6. Chanthy:
+- Greenhouse control module (Timer, Regulate the temperatuer and humidity)
+7. Nita
+- Checking the update
 
 ***Meeting 17/11/2020***
 
