@@ -1,4 +1,14 @@
 # Work Report
+***Meeting 25/11/2020***
+1. Sohkeng
+- Overview of RPI
+- Test with camera Pi
+2. Nita
+- Noise (Cannot reduce)
+- Using OpenCV
+- 
+
+
 
 ***Meeting 23-24/11/2020***
 1. Bunrong: 
