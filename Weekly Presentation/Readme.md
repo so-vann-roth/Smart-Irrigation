@@ -9,6 +9,11 @@
 - 
 
 
+***Meeting 02/12/2020***
+/Topic : 
+1. Greenhouse Module
+2. Wireless communication with Prof. Rithea
+
 
 ***Meeting 23-24/11/2020***
 1. Bunrong: 
