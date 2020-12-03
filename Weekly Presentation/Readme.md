@@ -11,6 +11,9 @@
 - Will finish the label for sensor node 
 - Finsish the Coordinator node
 - CNC baord cutting after covid
+
+
+
 ***Meeting 02/12/2020***
 
 Topic : 
