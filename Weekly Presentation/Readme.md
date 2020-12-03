@@ -1,5 +1,16 @@
 # Work Report
-
+***Meeting 03/12/2020***
+1. Chanthy:
+- Discuss with Vichea on the interface and draft for him
+2. Sovanroth
+- Focus on Backend Design
+3. Kru  Lee
+- Overview of the whole image of Cloud storage
+- Mobile App development and help Sovannroth for the Backend
+4. Thavath:
+- Will finish the label for sensor node 
+- Finsish the Coordinator node
+- CNC baord cutting after covid
 ***Meeting 02/12/2020***
 
 Topic : 
