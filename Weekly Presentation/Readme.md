@@ -1,4 +1,16 @@
 # Work Report
+***Meeting 20/01/2020***
+1. Sopanha
+- Greenhouse control module
+- Using STM-32/Doing Introduction pin/structure overview
+- Explore CubeIDE
+2. Rengsey
+- Training STM-32 
+3. Leakhena
+- Ubuntu --> BladRF
+- Discuss with kru rithea
+3. Bunrong:
+- Upgrade HMI on the coordinator
 ***Meeting 03/12/2020***
 1. Chanthy:
 - Discuss with Vichea on the interface and draft for him
