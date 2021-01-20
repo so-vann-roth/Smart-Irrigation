@@ -1,6 +1,6 @@
 Upload the presentation file here
 
-File title: W#_Fullname.pptx (Ex: W2_HEL-Chanthan.pptx)
+File title: Week#_Fullname.pptx (Ex: W2_HEL-Chanthan.pptx)
 
 
 
