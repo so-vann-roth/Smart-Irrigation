@@ -1,4 +1,8 @@
 # Work Report
+***Meeting Plan 18/02/2021***
+1. Finalize students work
+2. Meeting schedule both group and individual
+3. Set the final discussion about STM32 training with Rengsey
 ***Meeting 20/01/2020***
 1. Sopanha
 - Greenhouse control module
