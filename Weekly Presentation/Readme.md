@@ -1,4 +1,9 @@
 # Work Report
+***Meeting Plan 24/02/2021***
+1. Activity plan for new semester
+2. Presentation/Demo
+3. Trip
+4. Others
 ***Meeting Plan 18/02/2021***
 1. Finalize students work
 2. Meeting schedule both group and individual
