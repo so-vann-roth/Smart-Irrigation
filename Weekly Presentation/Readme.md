@@ -1,9 +1,10 @@
 # Work Report
 ***Meeting Plan 24/02/2021***
 1. Activity plan for new semester
-2. Presentation/Demo
-3. Trip
-4. Others
+- Weekly Presentation (2 students/week): Sharing the knowledge to others 
+- Problems: 2 minutes each to show the problem --> Other in the group propose the sultion.
+2. Trip
+
 ***Meeting Plan 18/02/2021***
 1. Finalize students work
 2. Meeting schedule both group and individual
