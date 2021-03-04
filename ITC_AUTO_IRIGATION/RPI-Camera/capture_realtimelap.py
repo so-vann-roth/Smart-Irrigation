@@ -9,7 +9,7 @@ while True:
     FRAMES += 1 #count plus 1 in python3 // i += 1
     def capture_frame (frame): #def () inclouding capture frame
         with picamera.PiCamera() as camera:
-            time.sleep(3600)
+            time.sleep(3600) # Every 1h capture one
             #str is string assign to the name file JPG
             #"/home/pi/MagPi/testn/" location that stored 
             camera.capture("/home/pi/MagPi/testn/Date: %s.jpg" %str(t))
