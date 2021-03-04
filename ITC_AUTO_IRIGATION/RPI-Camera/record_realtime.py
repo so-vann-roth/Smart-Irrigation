@@ -1,11 +1,10 @@
+#import library
 from picamera import PiCamera
 from time import sleep
-camera=PiCamera()
-camera.resolution = (640, 480)
-camera.start_recording('/home/pi/MagPi/testr/video-00.h264')
-
-#Time delay for start capture
-camera.wait_recording(15)
+camera=PiCamera()                                            #set as PiCamera to camera
+camera.resolution = (640, 480)                               #set solution of picamera ( 640 x 480 )
+camera.start_recording('/home/pi/MagPi/testr/video-00.h264') #first record file.h264
+camera.wait_recording(15)                                    #Time delay for start capture
 sleep(10)
 i = 1
 while True:
@@ -14,5 +13,5 @@ while True:
     #Time During recording video
     camera.wait_recording(15)
     i += 1
-camera.stop_recording()
+camera.stop_recording() #closed program
         
