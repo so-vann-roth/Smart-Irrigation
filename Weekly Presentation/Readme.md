@@ -1,6 +1,11 @@
 # Work Report
-***Meeting Plan 03/03/2021***
-1. 
+***Meeting Plan 09/03/2021***
+1. Update work for Leakhena
+2. Update work with nakru for cooling pad and data collection
+3. Come to school plan
+4. I4 students work
+5. Training plan for I3
+6. Training plan for i4
 
 ***Meeting Plan 24/02/2021***
 1. Activity plan for new semester
