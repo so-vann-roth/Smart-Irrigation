@@ -4,4 +4,14 @@
  - plug, wiring
  - Not easy for user
  - Big system
-++
+ 
+++ Updating the system: Topic for thesis
+ - Add touchsreen to system 
+ - Timer 
+
+*** Modules
+
+1. System (2 sensors node-->Zigbee, 1 controller-->zigbee-->Touchscreen, timer)
+2. Stand alone module for greenhouse 
+ - Touch screen: set value of sensor for irrigation or ventilation, timer
+4. 1 and 2 with wifi module and send data to internet
