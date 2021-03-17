@@ -13,5 +13,12 @@
 
 1. System (2 sensors node-->Zigbee, 1 controller-->zigbee-->Touchscreen, timer)
 2. Stand alone module for greenhouse 
- - Touch screen: set value of sensor for irrigation or ventilation, timer
-4. 1 and 2 with wifi module and send data to internet
+ - Touchscreen: set value of sensor for irrigation or ventilation, timer
+3. 1 and 2 with wifi module and send data to internet
+
+
+*** How to make it ontime???
+ - Planning: Activiies: From now --> 31 June 2021
+ - Brainstorm the sytem architecture 1 2 3 
+ - Device and equipment needed and when??
+ - Start activities  
