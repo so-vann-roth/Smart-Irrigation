@@ -22,3 +22,5 @@
  - Brainstorm the sytem architecture 1 2 3 
  - Device and equipment needed and when??
  - Start activities  
+
+My drive url: https://drive.google.com/drive/folders/1hoIlUgW8TnG1y3zn0yynYPQXsrj2xnps?usp=sharing
